@@ -1,9 +1,12 @@
 dependencies:
-- name: exposecontroller
-  version: 2.3.89
+- name: antipasti
+  repository: http://jenkins-x-chartmuseum:8080
+  version: 0.0.1
+- alias: expose
+  name: exposecontroller
   repository: http://chartmuseum.jenkins-x.io
-  alias: expose
-- name: exposecontroller
   version: 2.3.89
+- alias: cleanup
+  name: exposecontroller
   repository: http://chartmuseum.jenkins-x.io
-  alias: cleanup
+  version: 2.3.89
