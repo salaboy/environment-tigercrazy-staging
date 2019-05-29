@@ -10,3 +10,6 @@ dependencies:
   name: exposecontroller
   repository: http://chartmuseum.jenkins-x.io
   version: 2.3.89
+- name: k8s-operator
+  repository: http://jenkins-x-chartmuseum:8080
+  version: 1.0.1
